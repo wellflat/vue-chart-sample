@@ -1,6 +1,6 @@
 <script>
 import { Scatter, mixins } from 'vue-chartjs';
-const {  reactiveProp } = mixins;
+const { reactiveProp } = mixins;
 
 export default {
   extends: Scatter,
@@ -16,5 +16,5 @@ export default {
       this.$data._chart.update();
     }
   }
-}
+};
 </script>
